@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Mis Libros</title>
+	<meta name="description" content="Contacto mis Libros"/>
+	<meta name="viewport" content="width=divice-width, initial-scale=1"/>
+	<link rel="shortcut icon" type="image/x-icon" href="img/iconos/MisLibros.ico" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<!-- <script src="js/jquery-1.11.1.js"></script> -->
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/scriptCompartirInfo.js"></script>
+</head>
+<body>
+	<header>
+		<figure>
+			<a href="index.html">
+				<img class="fade" id="img_logo" alt="Mis Libros" src="img/logo.png">
+			</a>
+		</figure>
+		<a href="index.html">
+			<h1 id="titulo">Mis Libros</h1>
+		</a>	
+		<nav>
+			<a href="contacto.html">
+				<img id="img_contacto" src="img/Phone_Icon_icon-icons.com_76442.png">
+			</a>
+		</nav>
+	</header>
+	<section id="contenido">
+	    <section id="form">
+	    	<form id="form_encuesta" enctype="text/plain" >
+				<fieldset>
+					<legend>Compartir con amigos</legend>
+					<div>
+						<div class="deslizante"></div>
+						<div>
+							<!-- <label for="emailEmisor">Emisor:</label> -->
+							<input type="text" id="emailEmisor" class="fade" name="emailEmisor_txt" placeholder="De:" />
+						</div>
+						<div>
+							<!-- <label for="emailDest">Destino:</label> -->
+							<input type="text" id="emailDest" class="fade" name="emailDest_txt" placeholder="Para:" />
+						</div>
+							<!-- <label for="nombre">Nomb y Ap:</label> -->
+							<input type="text" id="nombre" class="fade" placeholder="Nombre y apellido:" name="nombre_txt"/>
+						</div>
+					<div id="datos_comp">
+						<div>
+							<!-- <label for="d_titulo">Titulo:</label> -->
+							<input type="text" id="d_titulo" class="fade" name="titulo_txt" />
+						</div>
+						<div>
+							<!-- <label for="d_autor">Autor:</label> -->
+							<input type="text" id="d_autor" class="fade" name="autor_txt" />
+						</div>
+						<div>
+							<!-- <label for="d_paginas">Paginas:</label> -->
+							<input type="text" id="d_paginas" class="fade" name="genero_txt" />
+						</div>
+						<div>
+							<!-- <label for="d_editorial">Editorial:</label> -->
+							<input type="text" id="d_editorial" class="fade" name="genero_txt" />
+						</div>
+						<div>
+							<!-- <label for="d_imagen">Imagen:</label> -->
+							<input type="text" id="d_imagen" class="fade" name="imagen_txt"  />
+						</div>
+						<div>
+							<!-- <label for="d_descrip">Descipcion:</label> -->
+							<textarea id="d_descrip" class="fade" name="desc_txt">
+							</textarea>
+						</div>
+					</div>
+					<div>
+						<input type="button" id="btnSubmit" class="cambio" name="submit_btn" value="Enviar mail"/>
+					</div>
+				</fieldset>
+				</form>	    	
+	    </section>
+	</section>
+	<footer> 
+		<small>&copy; Copyright 2017, Ferrara Damian</small>
+		<a rel="author" target="_blank" href="http://twitter.com/ferraradamian2">@ferraradamian</a>
+	</footer>	
+</body>
+</html>
